@@ -1,0 +1,167 @@
+body{
+    background: #ffaa99;
+}
+
+
+.row {
+    margin-top: 20px; /* add margin to the top of the rows */
+  }
+  
+  .col-md-6 {
+    margin-bottom: 20px; /* add margin to the bottom of the columns */
+  }
+
+  
+  .container{
+    background: #fcfcfe;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    height: 100%;
+    width: 76%;
+  }
+
+
+  #image{
+    width: 65%;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+    border: 3px solid black;
+  }
+  /*
+#image{
+    margin-top: 0px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    width: 200px;
+    height: 200px;
+    border: 3px solid black;
+    
+}
+*/
+.name{
+    text-align: center;
+    margin-top: 40px;
+    letter-spacing: 1px;
+    border-bottom: 3px solid black;
+    color:#883965;
+}
+
+.career{
+  text-align: center;
+  font-size: 25px;
+  color: #5a2d59;
+  letter-spacing: 1px;
+  padding-right: 14%;
+}
+
+.profile{
+  padding-left: 2%;
+  border-bottom: 3px solid black;
+}
+
+
+/*Experience Section*/
+.tl-content{
+  border-left: 1px solid #ccc;
+  padding-left: 2rem;
+  position: relative;
+  padding-bottom: 1rem;
+  
+}
+
+.About-Me-Para{ /*Paragraphs*/
+  line-height: 1.6rem;
+  font-size: 1.1rem;
+  color: #718096;
+  text-align: justify;
+  padding-bottom: 10px;
+  padding-right: 2%;
+  padding-left: 2%;
+  margin-bottom: 5px;
+}
+
+.lists{
+  line-height: 1.6rem;
+  font-size: 1.1rem;
+  color: #718096;
+  padding-bottom: 10px;
+  padding-right: 2%;
+  padding-left: 15%;
+  margin-bottom: 5px;
+
+}
+.right-title{  /*Experience Title*/
+  letter-spacing: 1px;
+  color: #883965;
+  margin-bottom: .8rem;
+  position: relative;
+  padding-left: 2%;
+  border-bottom: 3px solid black;
+}
+
+.sect{
+  padding-bottom: .5rem;
+}
+
+
+.tl-title{ /*Names of the Schools*/
+  letter-spacing: 1px;
+  font-size: 1.3rem;
+  color: #5a2d59;
+  padding-left: 2%;
+}
+
+.tl-title-2{
+  letter-spacing: 1px;
+  font-size: 1.3rem;
+  color: #c85079;
+  padding-right: 2%;
+  margin-top: 48px;
+}
+
+.tl-title-2::before{
+  content:"";
+  position: absolute;
+  width: .7rem;
+  height: .7rem;
+  background-color: #c85079;
+  border-radius: 50%;
+  transform: translateX(-50%);
+  left: 0;
+}
+
+
+.tl-title-3{
+  letter-spacing: 1px;
+  font-size: 1.3rem;
+  color: #c85079;
+  padding-right: 2%;
+  margin-top: 2px;
+}
+
+.tl-title-3::before{
+  content:"";
+  position: absolute;
+  width: .7rem;
+  height: .7rem;
+  background-color: #c85079;
+  border-radius: 50%;
+  transform: translateX(-50%);
+  left: 0;
+}
+
+.links{
+  color: #718096;
+}
+
+.contact-info .links {
+  display: inline-block;
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
